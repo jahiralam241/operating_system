@@ -17,8 +17,7 @@ int main(){
 
    for(int i=0;i<n;i++){
     cout<<"waitting time for process "<<i+1<<" ::"<<waiting<<endl;
-       avg+=waiting;
-       
+       avg+=waiting; 
        waiting+=brust[i];
        
 
